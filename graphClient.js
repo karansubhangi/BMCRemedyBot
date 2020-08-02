@@ -6,11 +6,11 @@ var httpClient = new HttpClient();
 
 
 const optionsforTokenRequest = {
-    url: 'https://login.microsoftonline.com/4abc1ee8-56f0-4a45-9818-2cb9e696861f/oauth2/v2.0/token',
+    url: 'https://login.microsoftonline.com/ac26cf21-c02e-433a-8cca-237e1afccbd1/oauth2/v2.0/token',
     method: 'POST',
     auth: {
-      user: '6977dc6f-92ae-45b4-b797-607971b0eb84',
-      pass: 'eo9iom1C~zHr16sWP0Z5TCE6OBGS4X-~~~'
+      user: '04812a6a-a5cf-4004-94fe-22a4a11c6134',
+      pass: 'Y0ufVcvSAc4s.8ojYQb2_Ba1R80~2V.C3Z'
     },
     form: {
       'grant_type': 'client_credentials',
